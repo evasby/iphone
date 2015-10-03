@@ -1,0 +1,24 @@
+.social{
+	float: right;
+	@include clearfix();
+	&_link{
+		display: block;
+		margin: 0px 0px 0px 5px;
+		float: left;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 28px;
+		height: 28px;
+		@include def-opacity(0.8);
+		&__vk{
+			background: url('../image/vk.png') no-repeat;
+		}
+		&__fb{
+			background: url('../image/fb.png') no-repeat;
+		}
+		&:hover{
+			@include def-opacity(1);
+		}
+	}
+}

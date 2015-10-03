@@ -1,20 +1,17 @@
 ﻿$font: proximanova;
-$bold: proximanova_bold;
-$light: proximanova_light;
-$italic: proximanova_italic;
-$cond: proximanova_cond;
-$boldit: proximanova_bold_italic;
-$lightit: proximanova_light_italic;
-$min_width: 1000px;
+$width: 1000px;
 @import "mymix";
 @import "fonts";
 //**********************************************************/
 //**********************************************************/
+.myinner{
+  width: $width;
+  margin: 0 auto;
+  padding: 0px 12px;
+}
 body{
-  //font-family: $font;
-  //font-size: $font_size18;
-  min-width: $min_width;
-  //position: relative;
+  font-family: arial;
+  min-width: 1024px;
 }
 textarea{
   resize: none;
@@ -30,13 +27,12 @@ button, input[type="reset"], input[type="button"], input[type="submit"] {
   @include def-border-radius(0px);
 }
 strong, b{
-  font-family: $bold;
+
 }
 i{
-  font-family: $italic;
+
 }
 a{
-  //@include link(#373737, #373737);
   &:focus{
     outline: none;
   }
@@ -176,6 +172,11 @@ textarea{
 }
 //**********************************************************/
 //**********************************************************/
-@import "placeholder";
-@import "mybreadcrumb";
-@import "user-content";
+@import "header";
+@import "phones";
+@import "address";
+@import "social";
+@import "menu-apple";
+@import "menu-top";
+@import "logo";
+@import "main1";

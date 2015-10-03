@@ -1,0 +1,16 @@
+.menu-top{
+	float: right;
+	margin: 13px 0px 0px 0px;
+	&_list{
+		@include clearfix();
+	}
+	&_item{
+		float: left;
+		margin: 0px 0px 0px 30px;
+	}
+	&_link{
+		@include link(#252525, #737373);
+		font-size: 16px;
+		text-decoration: none;
+	}
+}

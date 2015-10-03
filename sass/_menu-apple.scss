@@ -1,0 +1,16 @@
+.menu-apple{
+	float: left;
+	padding: 4px 0px 0px 0px;
+	&_list{
+		@include clearfix();
+	}
+	&_item{
+		float: left;
+		margin: 0px 14px 0px 0px;
+	}
+	&_link{
+		@include link(#a5a3a3, #ffffff);
+		text-decoration: none;
+		font-size: 12px;
+	}
+}

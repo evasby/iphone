@@ -1,0 +1,13 @@
+.header{
+	&_top{
+		background-color: #424141;
+		@include clearfix();
+		padding: 6px 0px 5px 0px;
+	}
+	&_bottom{
+		@include clearfix();
+		border-top: 1px solid #a0a0a0;
+		border-bottom: 1px solid #a0a0a0;
+		padding: 4px 0px 15px 0px;
+	}
+}
