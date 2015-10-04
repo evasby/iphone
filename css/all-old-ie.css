@@ -139,6 +139,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   font-family: arial;
+  color: #363636;
   min-width: 1024px;
 }
 
@@ -578,6 +579,199 @@ textarea:focus {
   width: 100%;
   background: url("../image/full-image-header.jpg") 50% 50% no-repeat;
   background-size: cover;
+}
+
+.social-f {
+  text-align: center;
+  padding: 44px 0px 25px 0px;
+}
+.social-f_link {
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 22px;
+  height: 21px;
+}
+.social-f_link__vk {
+  background: url("../image/vk-f.png") no-repeat;
+}
+.social-f_link__fb {
+  background: url("../image/fb-f.png") no-repeat;
+}
+.social-f_link:hover {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
+
+.footer_top {
+  padding: 0px 0px 40px 0px;
+}
+.footer_bottom {
+  background-color: #363636;
+  border-top: 1px solid #5b5b5b;
+  border-bottom: 1px solid #5b5b5b;
+  padding: 4px 0px 4px 0px;
+}
+
+.address-f {
+  text-align: center;
+  font-size: 16px;
+  margin: 0px 0px 14px 0px;
+}
+.address-f_title {
+  display: inline-block;
+  position: relative;
+  margin: 0px 0px 15px 0px;
+  padding: 0px 0px 0px 15px;
+  *zoom: expression( this.runtimeStyle.zoom="1", this.appendChild( document.createElement("small") ).className="before" );
+}
+.address-f_title:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 13px;
+  position: absolute;
+  top: 1px;
+  left: -3px;
+  background: url("../image/header-icons.png") 0px 0px no-repeat;
+}
+.address-f_title .before {
+  display: block;
+  width: 10px;
+  height: 13px;
+  position: absolute;
+  top: 1px;
+  left: -3px;
+  background: url("../image/header-icons.png") 0px 0px no-repeat;
+}
+
+.phones-f {
+  text-align: center;
+  font-size: 20px;
+  margin: 0px 0px 14px 0px;
+}
+.phones-f_title {
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  margin: 0px 0px 13px 0px;
+  padding: 0px 0px 0px 15px;
+  *zoom: expression( this.runtimeStyle.zoom="1", this.appendChild( document.createElement("small") ).className="before" );
+}
+.phones-f_title:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 13px;
+  position: absolute;
+  top: 1px;
+  left: -3px;
+  background: url("../image/header-icons.png") -10px 0px no-repeat;
+}
+.phones-f_title .before {
+  display: block;
+  width: 10px;
+  height: 13px;
+  position: absolute;
+  top: 1px;
+  left: -3px;
+  background: url("../image/header-icons.png") -10px 0px no-repeat;
+}
+.phones-f p {
+  margin: 0px 0px 7px 0px;
+}
+
+.email-f {
+  text-align: center;
+}
+.email-f_title {
+  display: inline-block;
+  position: relative;
+  margin: 0px 0px 11px 0px;
+  padding: 0px 0px 0px 15px;
+  *zoom: expression( this.runtimeStyle.zoom="1", this.appendChild( document.createElement("small") ).className="before" );
+}
+.email-f_title:before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  left: -13px;
+  background: url("../image/email.png") no-repeat;
+}
+.email-f_title .before {
+  display: block;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  left: -13px;
+  background: url("../image/email.png") no-repeat;
+}
+.email-f_link a {
+  color: #363636;
+  text-decoration: none;
+}
+.email-f_link a:visited {
+  color: #363636;
+}
+.email-f_link a:hover {
+  color: #363636;
+}
+.email-f_link a:active {
+  color: #363636;
+}
+.email-f_link a:focus {
+  color: #363636;
+}
+
+.menu-bottom {
+  text-align: center;
+}
+.menu-bottom_list {
+  display: inline-block;
+  /* ╨Я╤А╤П╤З╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨╛╤В IE ╨┤╨╗╤П mac \*/
+  * zoom: 1;
+  display: block;
+}
+.menu-bottom_list:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+* html .menu-bottom_list {
+  height: 1%;
+}
+.menu-bottom_item {
+  display: inline;
+  margin: 0px 0px 0px 20px;
+}
+.menu-bottom_link {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.menu-bottom_link:visited {
+  color: #ffffff;
+}
+.menu-bottom_link:hover {
+  color: #737373;
+}
+.menu-bottom_link:active {
+  color: #ffffff;
+}
+.menu-bottom_link:focus {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */

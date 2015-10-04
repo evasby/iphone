@@ -85,7 +85,56 @@
   <section class="main1"></section>
 
   <footer class="footer">
-    
+    <div class="footer_top">
+    	<div class="myinner">
+	    	<div class="social-f">
+	    		<a href="#" class="social-f_link social-f_link__vk">Вконтакте</a>
+	        <a href="#" class="social-f_link social-f_link__fb">Facebook</a>
+	    	</div>
+	    	<div class="address-f">
+	    		<div class="address-f_title">Адрес</div>
+	    		<p>Минск, Платонова ул. 43, офис 115</p>
+	    	</div>
+	    	<div class="phones-f">
+	    		<div class="phones-f_title">Телефоны</div>
+	    		<p>+375 (29) 996-89-89</p>
+	    		<p>+375 (29) 769-97-69</p>
+	    		<p>+375 (17) 294-49-00</p>
+	    	</div>
+	    	<div class="email-f">
+	    		<div class="email-f_title">Email</div>
+	    		<div class="email-f_link">
+	    			<a href="#">iworld.sm@gmail.com</a>
+	    		</div>
+	    	</div>
+    	</div>
+    </div>
+    <div class="footer_bottom">
+    	<div class="myinner">
+	    	<div class="menu-bottom">
+	    		<ul class="menu-bottom_list">
+	    			<li class="menu-bottom_item">
+	            <a href="#" class="menu-bottom_link">Услуги и цены</a>
+	          </li>
+	          <li class="menu-bottom_item">
+	            <a href="#" class="menu-bottom_link">О нас</a>
+	          </li>
+	          <li class="menu-bottom_item">
+	            <a href="#" class="menu-bottom_link">Отзывы</a>
+	          </li>
+	          <li class="menu-bottom_item">
+	            <a href="#" class="menu-bottom_link">Акции</a>
+	          </li>
+	          <li class="menu-bottom_item">
+	            <a href="#" class="menu-bottom_link">Новости</a>
+	          </li>
+	          <li class="menu-bottom_item">
+	            <a href="#" class="menu-bottom_link">Контакты</a>
+	          </li>
+	    		</ul>
+	    	</div>
+    	</div>
+    </div>
   </footer>
 </body>
 </html>

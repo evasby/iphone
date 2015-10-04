@@ -1,0 +1,15 @@
+.menu-bottom{
+	text-align: center;
+	&_list{
+		@include clearfix();
+	}
+	&_item{
+		display: inline;
+		margin: 0px 0px 0px 20px;
+	}
+	&_link{
+		@include link(#ffffff, #737373);
+		font-size: 16px;
+		text-decoration: none;
+	}
+}

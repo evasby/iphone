@@ -1,0 +1,22 @@
+.social-f{
+	text-align: center;
+	padding: 44px 0px 25px 0px;
+	&_link{
+		display: inline-block;
+		margin: 0px 0px 0px 0px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 22px;
+		height: 21px;
+		&__vk{
+			background: url('../image/vk-f.png') no-repeat;
+		}
+		&__fb{
+			background: url('../image/fb-f.png') no-repeat;
+		}
+		&:hover{
+			@include def-opacity(0.5);
+		}
+	}
+}

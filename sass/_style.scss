@@ -11,6 +11,7 @@ $width: 1000px;
 }
 body{
   font-family: arial;
+  color: #363636;
   min-width: 1024px;
 }
 textarea{
@@ -180,3 +181,9 @@ textarea{
 @import "menu-top";
 @import "logo";
 @import "main1";
+@import "social-f";
+@import "footer";
+@import "address-f";
+@import "phones-f";
+@import "email-f";
+@import "menu-bottom";
