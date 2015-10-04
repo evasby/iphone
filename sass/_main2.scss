@@ -1,0 +1,38 @@
+.main2{
+	background-color: #fbfbfb;
+	padding: 34px 0px 34px 0px;
+	&_item{
+		width: 33.33%;
+		float: left;
+		text-align: center;
+	}
+	&_link{
+		@include link(#363636, #363636);
+		text-decoration: none;
+		font-size: 12px;
+		display: inline-block;
+		font-weight: bold;
+		@include def-transition(opacity, 0.2s);
+		&:hover{
+			@include def-opacity(0.5);
+		}
+	}
+	&_image{
+		width: 102px;
+		height: 102px;
+		margin: 0 auto 25px auto;
+		background-size: cover;
+		&__1{
+			background: url('../image/main2-1.png') 50% 50% no-repeat;
+		}
+		&__2{
+			background: url('../image/main2-2.png') 50% 50% no-repeat;
+		}
+		&__3{
+			background: url('../image/main2-3.png') 50% 50% no-repeat;
+		}
+	}
+	&_text{
+		width: 140px;
+	}
+}
