@@ -127,6 +127,65 @@
 	  	</div>
   	</div>
   </section>
+  <section id="main4" class="main4">
+  	<div class="myinner">
+  		<div class="main4_title">О нас</div>
+  		<div class="main4_wrap">
+		  	<div class="main4_item">
+		  		<div class="why">
+		  			<div class="why_title">Почему мы</div>
+		  			<div class="why_wrap">
+		  				<div class="why_item">
+		  					<div class="why_image"><img src="image/main4-1.png" alt=""></div>
+			  				<div class="why_label">Любая сложность ремонта за разумные деньги</div>
+		  				</div>
+		  				<div class="why_item">
+		  					<div class="why_image"><img src="image/main4-2.png" alt=""></div>
+			  				<div class="why_label">Консультация на любую тему, даже личную ;)</div>
+		  				</div>
+		  				<div class="why_item">
+		  					<div class="why_image"><img src="image/main4-3.png" alt=""></div>
+			  				<div class="why_label">Уникальная коллекция приложений, игр, операционные системы.</div>
+		  				</div>
+		  				<div class="why_item">
+		  					<div class="why_image"><img src="image/main4-4.png" alt=""></div>
+			  				<div class="why_label">Только оригинальные запчасти</div>
+		  				</div>
+		  				<div class="why_item">
+		  					<div class="why_image"><img src="image/main4-5.png" alt=""></div>
+			  				<div class="why_label">Всегда позитивное настроение: ваши гаджеты имеют право на вторую жизнь!</div>
+		  				</div>
+		  				<div class="why_item">
+		  					<div class="why_image"><img src="image/main4-6.png" alt=""></div>
+			  				<div class="why_label">А если грустно вам самим: у нас всегда веселые истории и сладости!</div>
+		  				</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div class="main4_item">
+		  		<div class="how">
+		  			<div class="how_title">Как работа строится у нас?</div>
+		  			<div class="how_item">
+		  				<div class="how_image"><img src="image/1.png" alt=""></div>
+			  			<div class="how_label">Вы приходите к нам или звоните</div>
+		  			</div>
+		  			<div class="how_item">
+		  				<div class="how_image"><img src="image/2.png" alt=""></div>
+			  			<div class="how_label">Мы оформляем заявку на ремонт и выявляем причину поломки</div>
+		  			</div>
+		  			<div class="how_item">
+		  				<div class="how_image"><img src="image/3.png" alt=""></div>
+			  			<div class="how_label">Обсуждаем с Вами полученную стоимость и начинаем работу</div>
+		  			</div>
+		  			<div class="how_item">
+		  				<div class="how_image"><img src="image/4.png" alt=""></div>
+			  			<div class="how_label">Радуем Вас хорошими новостями и приглашаем забрать гаджет</div>
+		  			</div>
+		  		</div>
+		  	</div>
+	  	</div>
+  	</div>
+  </section>
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <footer class="footer">
     <div class="footer_top">

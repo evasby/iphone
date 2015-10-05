@@ -1,0 +1,18 @@
+.main4{
+	padding: 53px 0px 0px 0px;
+	&_title{
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	&_wrap{
+		padding: 52px 0px 0px 0px;
+		@include clearfix();
+	}
+	&_item{
+		width: 50%;
+		float: left;
+	}
+}

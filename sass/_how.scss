@@ -1,0 +1,45 @@
+.how{
+	&_title{
+		color: #13404b;
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+		margin: 0px 0px 40px 0px;
+	}
+	&_label{
+		color: #000000;
+		font-size: 16px;
+		height: 110px;
+		padding: 0px 145px 0px 145px;
+		display: table-cell;
+		vertical-align: middle;
+		line-height: 1.2;
+	}
+	&_image{
+		position: absolute;
+		left: 0px;
+		top: -6px;
+		height: 79px;
+		width: 122px;
+		padding: 43px 0px 0px 0px;
+		background-color: #ffffff;
+		@include def-border-radius(50%);
+		text-align: center;
+	}
+	&_item{
+		background-color: #fbfbfb;
+		margin: 0px 0px 12px 0px;
+		height: 110px;
+		@include def-border-radius(55px);
+		position: relative;
+		&:nth-child(odd){
+			.how_label{
+				text-align: right;
+			}
+			.how_image{
+				left: auto;
+				right: 0px;
+			}
+		}
+	}
+}

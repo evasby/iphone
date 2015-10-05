@@ -1,0 +1,26 @@
+.why{
+	&_title{
+		color: #13404b;
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+		margin: 0px 0px 40px 0px;
+	}
+	&_item{
+		@include clearfix();
+		padding: 0px 0px 0px 5px;
+		margin: 0px 0px 40px 0px;
+	}
+	&_image{
+		float: left;
+	}
+	&_label{
+		color: #13404b;
+		font-size: 16px;
+		padding: 0px 60px 0px 20px;
+		height: 38px;
+		display: table-cell;
+		vertical-align: middle;
+		line-height: 1.2;
+	}
+}

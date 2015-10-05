@@ -817,4 +817,116 @@ textarea:focus {
   padding: 6px 0px 0px 45px;
 }
 
+.main4 {
+  padding: 53px 0px 0px 0px;
+}
+.main4_title {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main4_wrap {
+  padding: 52px 0px 0px 0px;
+  display: inline-block;
+  /* ╨Я╤А╤П╤З╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨╛╤В IE ╨┤╨╗╤П mac \*/
+  display: block;
+}
+.main4_wrap:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.main4_item {
+  width: 50%;
+  float: left;
+}
+
+.how_title {
+  color: #13404b;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px 0px 40px 0px;
+}
+.how_label {
+  color: #000000;
+  font-size: 16px;
+  height: 110px;
+  padding: 0px 145px 0px 145px;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+.how_image {
+  position: absolute;
+  left: 0px;
+  top: -6px;
+  height: 79px;
+  width: 122px;
+  padding: 43px 0px 0px 0px;
+  background-color: #ffffff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+}
+.how_item {
+  background-color: #fbfbfb;
+  margin: 0px 0px 12px 0px;
+  height: 110px;
+  -moz-border-radius: 55px;
+  -webkit-border-radius: 55px;
+  border-radius: 55px;
+  position: relative;
+}
+.how_item:nth-child(odd) .how_label {
+  text-align: right;
+}
+.how_item:nth-child(odd) .how_image {
+  left: auto;
+  right: 0px;
+}
+
+.why_title {
+  color: #13404b;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px 0px 40px 0px;
+}
+.why_item {
+  display: inline-block;
+  /* ╨Я╤А╤П╤З╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨╛╤В IE ╨┤╨╗╤П mac \*/
+  display: block;
+  padding: 0px 0px 0px 5px;
+  margin: 0px 0px 40px 0px;
+}
+.why_item:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.why_image {
+  float: left;
+}
+.why_label {
+  color: #13404b;
+  font-size: 16px;
+  padding: 0px 60px 0px 20px;
+  height: 38px;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+
 /*# sourceMappingURL=all.css.map */
