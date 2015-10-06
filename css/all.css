@@ -313,7 +313,7 @@ textarea:focus {
   visibility: hidden;
 }
 
-.fadeIn, .fadeInUp, .fadeOut, .fadeOutUp, .flipInX, .flipOutX, .flipInY, .flipOutY, .zoomIn, .zoomOut, .slideInLeft, .rollIn, .rollOut, .bounce, .pulse, .tada, .bounceInDown, .rotateIn, .rotateOut {
+.fadeIn, .fadeInUp, .fadeOut, .fadeOutUp, .flipInX, .flipOutX, .flipInY, .flipOutY, .zoomIn, .zoomOut, .slideInLeft, .rollIn, .rollOut, .bounce, .pulse, .tada, .bounceInDown, .rotateIn, .rotateOut, .fadeInLeft, .fadeOutLeft, .fadeInRight, .fadeOutRight {
   visibility: visible;
 }
 
@@ -927,6 +927,86 @@ textarea:focus {
   display: table-cell;
   vertical-align: middle;
   line-height: 1.2;
+}
+
+.myslider {
+  padding: 37px 0px 0px 0px;
+}
+.myslider_title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+}
+.myslider_pager {
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+}
+.myslider_pager a {
+  display: inline-block;
+  background-color: #42bfc2;
+  overflow: hidden;
+  margin: 0px 15px;
+  border: 2px solid #ffffff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.myslider_pager a.active {
+  border: 2px solid #42bfc2;
+}
+.myslider_pager a:hover img {
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+.myslider_pager img {
+  display: block;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.myslider_text {
+  background-color: #fbfbfb;
+  padding: 15px 120px 35px 120px;
+  position: relative;
+}
+.myslider_text p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.myslider_text:before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 21px;
+  background: url("../image/quotes.png") no-repeat;
+  position: absolute;
+  top: 6px;
+  left: 60px;
+}
+.myslider_text:after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 21px;
+  background: url("../image/quotes.png") -22px 0px no-repeat;
+  position: absolute;
+  bottom: 26px;
+  right: 60px;
+}
+.myslider_name {
+  position: absolute;
+  right: 120px;
+  bottom: 12px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=all.css.map */

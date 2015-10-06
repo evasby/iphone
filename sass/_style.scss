@@ -169,7 +169,7 @@ textarea{
 .hidded{
   visibility: hidden;
 }
-.fadeIn, .fadeInUp, .fadeOut, .fadeOutUp, .flipInX, .flipOutX, .flipInY, .flipOutY, .zoomIn, .zoomOut, .slideInLeft, .rollIn, .rollOut, .bounce, .pulse, .tada, .bounceInDown, .rotateIn, .rotateOut{
+.fadeIn, .fadeInUp, .fadeOut, .fadeOutUp, .flipInX, .flipOutX, .flipInY, .flipOutY, .zoomIn, .zoomOut, .slideInLeft, .rollIn, .rollOut, .bounce, .pulse, .tada, .bounceInDown, .rotateIn, .rotateOut, .fadeInLeft, .fadeOutLeft, .fadeInRight, .fadeOutRight{
   visibility: visible;
 }
 //**********************************************************/
@@ -194,3 +194,5 @@ textarea{
 @import "main4";
 @import "how";
 @import "why";
+
+@import "myslider";

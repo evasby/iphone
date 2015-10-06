@@ -1,6 +1,11 @@
 $(document).ready(function(){
+  $('.myslider_wrap').bxSlider({
+    mode: 'fade',
+    controls: false,
+    pagerCustom: '.myslider_pager'
+  });
 	var visible = '95%';
-  var hidden = 100;
+  var hidden = 50;
   /*********************************************************************/
 	var waypoint_main1_1 = new Waypoint({
     element: $('#main1'),
@@ -80,6 +85,66 @@ $(document).ready(function(){
       
     },
     offset: - $('#main3').innerHeight() + hidden
+  })
+  /*********************************************************************/
+  var waypoint_main4_1 = new Waypoint({
+    element: $('#main4'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main4').removeClass('fadeOut').addClass('fadeIn');
+        $('.why_image').removeClass('rotateOut').addClass('rotateIn');
+        $('.how_item:even').removeClass('fadeOutLeft').addClass('fadeInLeft');
+        $('.how_item:odd').removeClass('fadeOutRight').addClass('fadeInRight');
+      } else{
+        $('.main4').removeClass('fadeIn').addClass('fadeOut');
+        $('.why_image').removeClass('rotateIn').addClass('rotateOut');
+        $('.how_item:even').removeClass('fadeInLeft').addClass('fadeOutLeft');
+        $('.how_item:odd').removeClass('fadeInRight').addClass('fadeOutRight');
+      }
+    },
+    offset: visible
+  })
+  var waypoint_main4_2 = new Waypoint({
+    element: $('#main4'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main4').removeClass('fadeIn').addClass('fadeOut');
+        $('.why_image').removeClass('rotateIn').addClass('rotateOut');
+        $('.how_item:even').removeClass('fadeInLeft').addClass('fadeOutLeft');
+        $('.how_item:odd').removeClass('fadeInRight').addClass('fadeOutRight');
+      } else {
+        $('.main4').removeClass('fadeOut').addClass('fadeIn');
+        $('.why_image').removeClass('rotateOut').addClass('rotateIn');
+        $('.how_item:even').removeClass('fadeOutLeft').addClass('fadeInLeft');
+        $('.how_item:odd').removeClass('fadeOutRight').addClass('fadeInRight');
+      };
+      
+    },
+    offset: - $('#main4').innerHeight() + hidden
+  })
+  /*********************************************************************/
+  var waypoint_main5_1 = new Waypoint({
+    element: $('#main5'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main5').removeClass('fadeOut').addClass('fadeIn');
+      } else{
+        $('.main5').removeClass('fadeIn').addClass('fadeOut');
+      }
+    },
+    offset: visible
+  })
+  var waypoint_main5_2 = new Waypoint({
+    element: $('#main5'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main5').removeClass('fadeIn').addClass('fadeOut');
+      } else {
+        $('.main5').removeClass('fadeOut').addClass('fadeIn');
+      };
+      
+    },
+    offset: - $('#main5').innerHeight() + hidden
   })
   /*********************************************************************/
 });
