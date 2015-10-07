@@ -177,6 +177,10 @@ button, input[type="reset"], input[type="button"], input[type="submit"] {
   border-radius: 0px;
 }
 
+strong, b {
+  font-weight: bold;
+}
+
 a:focus {
   outline: none;
 }
@@ -195,6 +199,34 @@ textarea:focus {
 
 .hide {
   display: none;
+}
+
+.delay-01s {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -o-animation-delay: .1s;
+  animation-delay: .1s;
+}
+
+.delay-02s {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -o-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+.delay-03s {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -o-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.delay-04s {
+  -webkit-animation-delay: .4s;
+  -moz-animation-delay: .4s;
+  -o-animation-delay: .4s;
+  animation-delay: .4s;
 }
 
 .delay-05s {
@@ -1007,6 +1039,48 @@ textarea:focus {
   bottom: 12px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.main6_title {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 55px 0px 50px 0px;
+}
+
+.actions {
+  display: inline-block;
+  /* ╨Я╤А╤П╤З╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨╛╤В IE ╨┤╨╗╤П mac \*/
+  display: block;
+}
+.actions:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.actions_item {
+  width: 321px;
+  float: left;
+  margin: 0px 18px 18px 0px;
+  overflow: hidden;
+  background-color: #fbfbfb;
+}
+.actions_item:nth-child(3n) {
+  margin: 0px 0px 18px 0px;
+}
+.actions_text {
+  height: 100px;
+}
+.actions_text p {
+  font-size: 16px;
+  padding: 10px 30px 0px 15px;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=all.css.map */

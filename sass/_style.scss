@@ -29,7 +29,7 @@ button, input[type="reset"], input[type="button"], input[type="submit"] {
   @include def-border-radius(0px);
 }
 strong, b{
-
+  font-weight: bold;
 }
 i{
 
@@ -69,6 +69,30 @@ textarea{
 }
 .hide{
   display: none;
+}
+.delay-01s{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -o-animation-delay: .1s;
+  animation-delay: .1s;
+}
+.delay-02s{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -o-animation-delay: .2s;
+  animation-delay: .2s;
+}
+.delay-03s{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -o-animation-delay: .3s;
+  animation-delay: .3s;
+}
+.delay-04s{
+  -webkit-animation-delay: .4s;
+  -moz-animation-delay: .4s;
+  -o-animation-delay: .4s;
+  animation-delay: .4s;
 }
 .delay-05s{
   -webkit-animation-delay: .5s;
@@ -196,3 +220,6 @@ textarea{
 @import "why";
 
 @import "myslider";
+
+@import "main6";
+@import "actions";

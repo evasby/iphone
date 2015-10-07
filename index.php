@@ -228,6 +228,38 @@
 	  	</div>
   	</div>
   </section>
+
+  <section id="main6" class="main6 animated hidded">
+  	<div class="myinner">
+	  	<div class="main6_title">Акции</div>
+	  	<div class="actions">
+	  		<div class="actions_item animated hidded delay-01s">
+	  			<div class="actions_image"><img src="image/down/action2.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b>При заменне стекла</b> Вы получаете пленку или защитное стекло в подарок!</p></div>
+	  		</div>
+	  		<div class="actions_item animated hidded delay-02s">
+	  			<div class="actions_image"><img src="image/down/action1.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b>При любой покупке техники Apple -</b> скидка 15% на Apple Watch Sport!</p></div>
+	  		</div>
+	  		<div class="actions_item animated hidded delay-03s">
+	  			<div class="actions_image"><img src="image/down/action3.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b>Покупателям MacBook -</b> наушники в подарок!</p></div>
+	  		</div>
+	  		<div class="actions_item animated hidded delay-04s">
+	  			<div class="actions_image"><img src="image/down/action4.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b>При заменне стекла</b> Вы получаете пленку или защитное стекло в подарок!</p></div>
+	  		</div>
+	  		<div class="actions_item animated hidded delay-05s">
+	  			<div class="actions_image"><img src="image/down/action5.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b>При любой покупке техники Apple -</b> скидка 15% на Apple Watch Sport!</p></div>
+	  		</div>
+	  		<div class="actions_item animated hidded delay-06s">
+	  			<div class="actions_image"><img src="image/down/action6.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b>Покупателям MacBook -</b> наушники в подарок!</p></div>
+	  		</div>
+	  	</div>
+  	</div>
+  </section>
 	
   <footer class="footer">
     <div class="footer_top">

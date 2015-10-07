@@ -147,4 +147,32 @@ $(document).ready(function(){
     offset: - $('#main5').innerHeight() + hidden
   })
   /*********************************************************************/
+  var waypoint_main6_1 = new Waypoint({
+    element: $('#main6'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main6').removeClass('fadeOut').addClass('fadeIn');
+        $('.actions_item').removeClass('fadeOut').addClass('fadeIn');
+      } else{
+        $('.main6').removeClass('fadeIn').addClass('fadeOut');
+        $('.actions_item').removeClass('fadeIn').addClass('fadeOut');
+      }
+    },
+    offset: visible
+  })
+  var waypoint_main6_2 = new Waypoint({
+    element: $('#main6'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main6').removeClass('fadeIn').addClass('fadeOut');
+        $('.actions_item').removeClass('fadeIn').addClass('fadeOut');
+      } else {
+        $('.main6').removeClass('fadeOut').addClass('fadeIn');
+        $('.actions_item').removeClass('fadeOut').addClass('fadeIn');
+      };
+      
+    },
+    offset: - $('#main6').innerHeight() + hidden
+  })
+  /*********************************************************************/
 });

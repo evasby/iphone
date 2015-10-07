@@ -1,0 +1,23 @@
+.actions{
+	@include clearfix();
+	&_item{
+		width: 321px;
+		float: left;
+		margin: 0px 18px 18px 0px;
+		overflow: hidden;
+		background-color: #fbfbfb;
+		&:nth-child(3n){
+			margin: 0px 0px 18px 0px;
+		}
+	}
+	&_text{
+		height: 100px;
+		//display: table-cell;
+		//vertical-align: middle;
+		p{
+			font-size: 16px;
+			padding: 10px 30px 0px 15px;
+			line-height: 1.5;
+		}
+	}
+}
