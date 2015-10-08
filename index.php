@@ -260,6 +260,46 @@
 	  	</div>
   	</div>
   </section>
+
+  <section id="main7" class="main7 animated hidded">
+  	<div class="myinner">
+	  	<div class="main7_title">Новости</div>
+	  	<div class="news">
+	  		<div class="news_item animated hidded delay-01s">
+	  			<div class="news_image"><img src="image/down/news1.jpg" alt=""></div>
+	  			<div class="news_content">
+	  				<div class="news_title">Компания Apple сегодня</div>
+	  				<div class="news_text"><p>Обновила 15-дюймовые MacBook Pro с дисплеем Retina, которые теперь оснащаются новыми трекпадами Force Touch, более быстрой флэш-памятью, аккумуляторами с увеличенным временем автономной работы и более производительной дискретной графикой. Apple также представила новую модификацию 27-дюймового iMac с дисплеем Retina 5K, оснащённого экраном с поразительным разрешением 14,7 млн пикселей, 4-ядерным процессором и графикой AMD, при этом iMac в максимальной конфигурации теперь продаётся по более доступной цене от 159 990 руб. «Отзывы о новом MacBook и обновлённом 13-дюймовом MacBook Pro с дисплеем Retina оказались просто невероятными,Touch наравне с более быстрой флэш-памятью и аккумулятором!</p></div>
+	  			</div>
+	  		</div>
+	  		<div class="news_item animated hidded delay-02s">
+	  			<div class="news_image"><img src="image/down/news2.jpg" alt=""></div>
+	  			<div class="news_content">
+	  				<div class="news_title">15-дюймовые MacBook Pro</div>
+	  				<div class="news_text"><p>Обновила 15-дюймовые MacBook Pro с дисплеем Retina, которые теперь оснащаются новыми трекпадами Force Touch, более быстрой флэш-памятью, аккумуляторами с увеличенным временем автономной работы и более производительной дискретной графикой. Apple также представила новую модификацию 27-дюймового iMac с дисплеем Retina 5K, оснащённого экраном с поразительным разрешением 14,7 млн пикселей, 4-ядерным процессором и графикой AMD, при этом iMac в максимальной конфигурации теперь продаётся по более доступной цене от 159 990 руб. «Отзывы о новом MacBook и обновлённом 13-дюймовом MacBook Pro с дисплеем Retina оказались просто невероятными,Touch наравне с более быстрой флэш-памятью и аккумулятором!</p></div>
+	  			</div>
+	  		</div>
+	  		<div class="news_item animated hidded delay-03s">
+	  			<div class="news_image"><img src="image/down/news1.jpg" alt=""></div>
+	  			<div class="news_content">
+	  				<div class="news_title">Тренды Force Touch</div>
+	  				<div class="news_text"><p>Обновила 15-дюймовые MacBook Pro с дисплеем Retina, которые теперь оснащаются новыми трекпадами Force Touch, более быстрой флэш-памятью, аккумуляторами с увеличенным временем автономной работы и более производительной дискретной графикой. Apple также представила новую модификацию 27-дюймового iMac с дисплеем Retina 5K, оснащённого экраном с поразительным разрешением 14,7 млн пикселей, 4-ядерным процессором и графикой AMD, при этом iMac в максимальной конфигурации теперь продаётся по более доступной цене от 159 990 руб. «Отзывы о новом MacBook и обновлённом 13-дюймовом MacBook Pro с дисплеем Retina оказались просто невероятными,Touch наравне с более быстрой флэш-памятью и аккумулятором!</p></div>
+	  			</div>
+	  		</div>
+	  		<div class="news_item animated hidded delay-04s">
+	  			<div class="news_image"><img src="image/down/news2.jpg" alt=""></div>
+	  			<div class="news_content">
+	  				<div class="news_title">Отзывы о новом Mac Book</div>
+	  				<div class="news_text"><p>Обновила 15-дюймовые MacBook Pro с дисплеем Retina, которые теперь оснащаются новыми трекпадами Force Touch, более быстрой флэш-памятью, аккумуляторами с увеличенным временем автономной работы и более производительной дискретной графикой. Apple также представила новую модификацию 27-дюймового iMac с дисплеем Retina 5K, оснащённого экраном с поразительным разрешением 14,7 млн пикселей, 4-ядерным процессором и графикой AMD, при этом iMac в максимальной конфигурации теперь продаётся по более доступной цене от 159 990 руб. «Отзывы о новом MacBook и обновлённом 13-дюймовом MacBook Pro с дисплеем Retina оказались просто невероятными,Touch наравне с более быстрой флэш-памятью и аккумулятором!</p></div>
+	  			</div>
+	  		</div>
+	  	</div>
+  	</div>
+  </section>
+  <section id="main8" class="main8">
+  	<div class="main8_title">Контакты</div>
+  	<div id="gmap" class="mymap"></div>
+  </section>
 	
   <footer class="footer">
     <div class="footer_top">

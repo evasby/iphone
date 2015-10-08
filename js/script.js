@@ -7,6 +7,17 @@ $(document).ready(function(){
 	var visible = '95%';
   var hidden = 50;
   /*********************************************************************/
+  var waypoint_menu1 = new Waypoint({
+    element: $('.header_bottom'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.header_bottom').addClass('header_bottom__fixed');
+      } else{
+        $('.header_bottom').removeClass('header_bottom__fixed');
+      }
+    }
+  })
+  /*********************************************************************/
 	var waypoint_main1_1 = new Waypoint({
     element: $('#main1'),
     handler: function(dir) {
@@ -175,4 +186,74 @@ $(document).ready(function(){
     offset: - $('#main6').innerHeight() + hidden
   })
   /*********************************************************************/
+  var waypoint_main7_1 = new Waypoint({
+    element: $('#main7'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main7').removeClass('fadeOut').addClass('fadeIn');
+        $('.news_item').removeClass('fadeOut').addClass('fadeIn');
+      } else{
+        $('.main7').removeClass('fadeIn').addClass('fadeOut');
+        $('.news_item').removeClass('fadeIn').addClass('fadeOut');
+      }
+    },
+    offset: visible
+  })
+  var waypoint_main7_2 = new Waypoint({
+    element: $('#main7'),
+    handler: function(dir) {
+      if (dir === 'down') {
+        $('.main7').removeClass('fadeIn').addClass('fadeOut');
+        $('.news_item').removeClass('fadeIn').addClass('fadeOut');
+      } else {
+        $('.main7').removeClass('fadeOut').addClass('fadeIn');
+        $('.news_item').removeClass('fadeOut').addClass('fadeIn');
+      };
+      
+    },
+    offset: - $('#main7').innerHeight() + hidden
+  })
+  /*********************************************************************/
+
+
+
+
+
+
+
+
+
+
 });
+
+
+
+var map;
+var center = new google.maps.LatLng(53.912566, 27.597712);
+var myLatlng = new google.maps.LatLng(53.912566, 27.597712);
+function initialize() {
+  var mapOptions = {
+    zoom: 17,
+    center: center,
+    scrollwheel: false,
+    mapTypeControl: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  map = new google.maps.Map(document.getElementById('gmap'),
+      mapOptions);
+  var marker = new google.maps.Marker({
+      position: myLatlng
+  });
+  // To add the marker to the map, call setMap();
+  marker.setMap(map);
+
+
+
+google.maps.event.addListener(map, "rightclick", function(event) {
+    var lat = event.latLng.lat();
+    var lng = event.latLng.lng();
+    // populate yor box/field with lat, lng
+    console.log("Lat=" + lat + "; Lng=" + lng);
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);

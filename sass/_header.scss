@@ -1,4 +1,5 @@
 .header{
+	min-height: 93px;
 	&_top{
 		background-color: #424141;
 		@include clearfix();
@@ -9,5 +10,14 @@
 		border-top: 1px solid #a0a0a0;
 		border-bottom: 1px solid #a0a0a0;
 		padding: 4px 0px 15px 0px;
+		&__fixed{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			background-color: #ffffff;
+			z-index: 51;
+			@include def-opacity(0.8);
+		}
 	}
 }
