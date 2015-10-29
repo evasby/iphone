@@ -246,7 +246,7 @@
 	  		</div>
 	  		<div class="actions_item animated hidded delay-03s">
 	  			<div class="actions_image"><img src="image/down/action3.jpg" alt=""></div>
-	  			<div class="actions_text"><p>Всем подарки! Приходите к нам с другом за услугами или аксессуарами: Вы получите скидку 15%, а друг, благодаря Вам, - 10%.</p></div>
+	  			<div class="actions_text"><p><b>Всем подарки!</b> Приходите к нам с другом за услугами или аксессуарами: Вы получите скидку <b>15%</b>, а друг, благодаря Вам, - <b>10%</b>.</p></div>
 	  		</div>
 	  	</div>
   	</div>
