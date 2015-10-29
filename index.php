@@ -3,8 +3,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
-  <title>Iphone - Главная</title>
+  <title>i-World - Главная</title>
   <link rel="stylesheet" href="css/all.css" type="text/css" />
+  <link rel="stylesheet" href="css/temp.css" type="text/css" />
   <link rel="stylesheet" href="dist/animate.css" type="text/css"/>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -59,22 +60,22 @@
         <nav class="menu-top">
           <ul class="menu-top_list">
             <li class="menu-top_item">
-              <a href="#" class="menu-top_link">Услуги и цены</a>
+              <a href="#main3" class="menu-top_link">Услуги и цены</a>
             </li>
             <li class="menu-top_item">
-              <a href="#" class="menu-top_link">О нас</a>
+              <a href="#main4" class="menu-top_link">О нас</a>
             </li>
             <li class="menu-top_item">
-              <a href="#" class="menu-top_link">Отзывы</a>
+              <a href="#main5" class="menu-top_link">Отзывы</a>
             </li>
             <li class="menu-top_item">
-              <a href="#" class="menu-top_link">Акции</a>
+              <a href="#main6" class="menu-top_link">Акции</a>
             </li>
             <li class="menu-top_item">
-              <a href="#" class="menu-top_link">Новости</a>
+              <a href="#main7" class="menu-top_link">Новости</a>
             </li>
             <li class="menu-top_item">
-              <a href="#" class="menu-top_link">Контакты</a>
+              <a href="#main8" class="menu-top_link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -82,8 +83,11 @@
       </div>
     </div>
   </header>
-
-  <section id="main1" class="main1 animated hidded"></section>
+  <section id="main1" class="main1 animated hidded">
+	<div class="main1_item1"></div>
+	<div class="main1_item2"></div>
+	<div class="main1_item3"></div>
+  </section>
   <section id="main2" class="main2">
   	<div class="myinner">
   		<div class="main2_item">
@@ -200,67 +204,53 @@
 	  		</div>
 	  		<div class="myslider_wrap">
 		  		<div class="myslider_item">
-		  			<div class="myslider_text"><p>Ребята явно профи в своем деле...Была проблема с 4 айфон, думала проблема в батарее... Оказалось, проблема в шлейфе.Телефон не заряжался, поменяли батарею, запаяли шлейф все очень здорово. Телефон теперь работает, как новый! СПАСИБО БОЛЬШОЕ, ребята!</p>
-							<div class="myslider_name">Александр</div>
+		  			<div class="myslider_text"><p>Ребята, вы молодцы и спасибо вам больше! Уже 3 года, благодаря вам меня и моих знакомых окружают яблоки! PS: 5s - ни о чем) надо 6)</p>
+							<div class="myslider_name">Иван Величко</div>
 		  			</div>
 		  		</div>
 		  		<div class="myslider_item">
-		  			<div class="myslider_text"><p>Ребята явно профи в своем деле...Была проблема с 4 айфон, думала проблема в батарее... Оказалось, проблема в шлейфе.Телефон не заряжался, поменяли батарею, запаяли шлейф все очень здорово.</p>
-							<div class="myslider_name">Екатерина</div>
+		  			<div class="myslider_text"><p>Спасибо iWorld за апдейт Мака! Менял HDD на SSD на Mac Pro '13 (не ретина) – супер быстро сделали, крайне доволен, не могу узнать старый ноут! Спасибо!</p>
+							<div class="myslider_name">Kirill Artsymenia</div>
 		  			</div>	  			
 		  		</div>
 		  		<div class="myslider_item">
-		  			<div class="myslider_text"><p>Телефон теперь работает, как новый! СПАСИБО БОЛЬШОЕ, ребята!</p>
-							<div class="myslider_name">Ольга</div>
+		  			<div class="myslider_text"><p>В макбуке вздулась батарея, не работал тачпад, починили все и батарею заменили по вменяемой цене!</p>
+							<div class="myslider_name">Катя Сакович</div>
 		  			</div>	  			
 		  		</div>
 		  		<div class="myslider_item">
-		  			<div class="myslider_text"><p>Была проблема с 4 айфон, думала проблема в батарее... Оказалось, проблема в шлейфе.Телефон не заряжался, поменяли батарею, запаяли шлейф все очень здорово</p>
-							<div class="myslider_name">Иван</div>
+		  			<div class="myslider_text"><p>Ребята молодцы! Всегда проще взять и поменять забарахлившую деталь, а не потратить приличное количество времени на то, чтобы её исправить. Спасибо, что не пошли по лёгкому пути большинства белорусского сервиса и решили проблему наиболее выгодным путём для клиента.</p>
+							<div class="myslider_name">Volha Banadyseva</div>
 		  			</div>
 		  		</div>
 		  		<div class="myslider_item">
-		  			<div class="myslider_text"><p>Ребята явно профи в своем деле...Была проблема с 4 айфон, думала проблема в батарее... Оказалось, проблема в шлейфе.Телефон не заряжался, поменяли батарею, запаяли шлейф все очень здорово. Телефон теперь работает, как новый! СПАСИБО БОЛЬШОЕ, ребята!</p>
-		  			<div class="myslider_name">Ирина</div>
+		  			<div class="myslider_text"><p>Отличные ребята. Подарили моему iphone вторую жизнь, после того, как он утонул. Приветливые, вежливые + отличные цены. Всем рекомендую)</p>
+		  			<div class="myslider_name">Маргарита Рындевич</div>
 		  			</div>
 		  		</div>
 	  		</div>
 	  	</div>
   	</div>
   </section>
-
   <section id="main6" class="main6 animated hidded">
   	<div class="myinner">
 	  	<div class="main6_title">Акции</div>
 	  	<div class="actions">
 	  		<div class="actions_item animated hidded delay-01s">
-	  			<div class="actions_image"><img src="image/down/action2.jpg" alt=""></div>
-	  			<div class="actions_text"><p><b>При заменне стекла</b> Вы получаете пленку или защитное стекло в подарок!</p></div>
+	  			<div class="actions_image"><img src="image/down/action1.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b> Меняйте экранный модуль у нас,</b> и получите защитное стекло в подарок</p></div>
 	  		</div>
 	  		<div class="actions_item animated hidded delay-02s">
-	  			<div class="actions_image"><img src="image/down/action1.jpg" alt=""></div>
-	  			<div class="actions_text"><p><b>При любой покупке техники Apple -</b> скидка 15% на Apple Watch Sport!</p></div>
+	  			<div class="actions_image"><img src="image/down/action2.jpg" alt=""></div>
+	  			<div class="actions_text"><p><b>При замене корпуса у нас</b> Вы получаете скидку 50% на любой понравившийся чехол</p></div>
 	  		</div>
 	  		<div class="actions_item animated hidded delay-03s">
 	  			<div class="actions_image"><img src="image/down/action3.jpg" alt=""></div>
-	  			<div class="actions_text"><p><b>Покупателям MacBook -</b> наушники в подарок!</p></div>
-	  		</div>
-	  		<div class="actions_item animated hidded delay-04s">
-	  			<div class="actions_image"><img src="image/down/action4.jpg" alt=""></div>
-	  			<div class="actions_text"><p><b>При заменне стекла</b> Вы получаете пленку или защитное стекло в подарок!</p></div>
-	  		</div>
-	  		<div class="actions_item animated hidded delay-05s">
-	  			<div class="actions_image"><img src="image/down/action5.jpg" alt=""></div>
-	  			<div class="actions_text"><p><b>При любой покупке техники Apple -</b> скидка 15% на Apple Watch Sport!</p></div>
-	  		</div>
-	  		<div class="actions_item animated hidded delay-06s">
-	  			<div class="actions_image"><img src="image/down/action6.jpg" alt=""></div>
-	  			<div class="actions_text"><p><b>Покупателям MacBook -</b> наушники в подарок!</p></div>
+	  			<div class="actions_text"><p>Всем подарки! Приходите к нам с другом за услугами или аксессуарами: Вы получите скидку 15%, а друг, благодаря Вам, - 10%.</p></div>
 	  		</div>
 	  	</div>
   	</div>
   </section>
-
   <section id="main7" class="main7 animated hidded">
   	<div class="myinner">
 	  	<div class="main7_title">Новости</div>
@@ -331,22 +321,22 @@
 	    	<div class="menu-bottom">
 	    		<ul class="menu-bottom_list">
 	    			<li class="menu-bottom_item">
-	            <a href="#" class="menu-bottom_link">Услуги и цены</a>
+	            <a href="#main3" class="menu-bottom_link">Услуги и цены</a>
 	          </li>
 	          <li class="menu-bottom_item">
-	            <a href="#" class="menu-bottom_link">О нас</a>
+	            <a href="#main4" class="menu-bottom_link">О нас</a>
 	          </li>
 	          <li class="menu-bottom_item">
-	            <a href="#" class="menu-bottom_link">Отзывы</a>
+	            <a href="#main5" class="menu-bottom_link">Отзывы</a>
 	          </li>
 	          <li class="menu-bottom_item">
-	            <a href="#" class="menu-bottom_link">Акции</a>
+	            <a href="#main6" class="menu-bottom_link">Акции</a>
 	          </li>
 	          <li class="menu-bottom_item">
-	            <a href="#" class="menu-bottom_link">Новости</a>
+	            <a href="#main7" class="menu-bottom_link">Новости</a>
 	          </li>
 	          <li class="menu-bottom_item">
-	            <a href="#" class="menu-bottom_link">Контакты</a>
+	            <a href="#main8" class="menu-bottom_link">Контакты</a>
 	          </li>
 	    		</ul>
 	    	</div>

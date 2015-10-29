@@ -4,6 +4,12 @@ $(document).ready(function(){
     controls: false,
     pagerCustom: '.myslider_pager'
   });
+  $('.main1').bxSlider({
+    mode: 'fade',
+    controls: false,
+    pager: false,
+    auto: true
+  });
 	var visible = '95%';
   var hidden = 50;
   /*********************************************************************/
@@ -22,7 +28,7 @@ $(document).ready(function(){
     element: $('#main1'),
     handler: function(dir) {
       if (dir === 'down') {
-        $('#main1').bgLoaded({
+        $('.main1_item1').bgLoaded({
           afterLoaded : function(){
             $('#main1').removeClass('fadeOut').addClass('fadeIn');
           }
@@ -214,20 +220,7 @@ $(document).ready(function(){
     offset: - $('#main7').innerHeight() + hidden
   })
   /*********************************************************************/
-
-
-
-
-
-
-
-
-
-
 });
-
-
-
 var map;
 var center = new google.maps.LatLng(53.912566, 27.597712);
 var myLatlng = new google.maps.LatLng(53.912566, 27.597712);
@@ -246,9 +239,6 @@ function initialize() {
   });
   // To add the marker to the map, call setMap();
   marker.setMap(map);
-
-
-
 google.maps.event.addListener(map, "rightclick", function(event) {
     var lat = event.latLng.lat();
     var lng = event.latLng.lng();
