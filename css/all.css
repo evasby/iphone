@@ -1269,4 +1269,54 @@ textarea:focus {
   height: 582px;
 }
 
+.form-imei {
+  padding-top: 15px;
+  text-align: center;
+}
+.form-imei h4 {
+  margin-top: 4px;
+}
+.form-imei_title {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.form-imei_inner {
+  margin-bottom: 15px;
+}
+.form-imei_inner input {
+  border: none;
+  text-align: center;
+  background-color: #ddd;
+  width: 150px;
+  height: 30px;
+}
+.form-imei_button {
+  position: relative;
+}
+.form-imei_button input {
+  width: 150px;
+  height: 30px;
+  background-color: #353434;
+  color: #fff;
+  border: none;
+}
+.form-imei_button input:hover {
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(53, 52, 52, 0.5);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(53, 52, 52, 0.5);
+  box-shadow: 2px 2px 5px 0px rgba(53, 52, 52, 0.5);
+}
+.form-imei_progress {
+  display: none;
+  background: url("../image/ajax-loader.gif") no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 35px;
+  top: 7px;
+}
+
 /*# sourceMappingURL=all.css.map */

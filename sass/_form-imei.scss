@@ -1,0 +1,49 @@
+.form-imei{
+	padding-top: 15px;
+	text-align: center;
+	h4{
+		margin-top: 4px;
+	}
+	&_title{
+		color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 35px;
+    text-align: center;
+    text-transform: uppercase;
+	}
+	&_inner{
+		input{
+			border: none;
+			text-align: center;
+			background-color: #ddd;
+			width: 150px;
+			height: 30px;
+		}
+		margin-bottom: 15px;
+	}
+	&_button{
+		position: relative;
+		input{
+			width: 150px;
+			height: 30px;
+			background-color: #353434;
+			color: #fff;
+			border: none;
+			&:hover{
+				-webkit-box-shadow: 2px 2px 5px 0px rgba(53,52,52,0.5);
+				-moz-box-shadow: 2px 2px 5px 0px rgba(53,52,52,0.5);
+				box-shadow: 2px 2px 5px 0px rgba(53,52,52,0.5);
+			}
+		}
+	}
+	&_progress{
+		display: none;
+		background: url('../image/ajax-loader.gif') no-repeat;
+		width: 16px;
+		height: 16px;
+		position: absolute;
+		right: 35px;
+		top: 7px;
+	}
+}

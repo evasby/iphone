@@ -48,8 +48,8 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: 'www/iphone.wfs.by/layout',
-                        //dest: '/home/evasby/www/iphone.wfs.by/sites/all/themes/iphone',
+                        //dest: 'www/iphone.wfs.by/layout',
+                        dest: '/www/iphone.wfs.by/sites/all/themes/iworld',
                         port: 21
                     },
                     files: [
