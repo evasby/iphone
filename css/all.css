@@ -596,19 +596,19 @@ textarea:focus {
 .main1_item1 {
   height: 684px;
   width: 100%;
-  background: url("../image/full-image-header1.jpg") 50% 50% no-repeat;
+  background: url("../image/full-image-header1.jpg") 25% 50% no-repeat;
   background-size: cover;
 }
 .main1_item2 {
   height: 684px;
   width: 100%;
-  background: url("../image/full-image-header2.jpg") 50% 50% no-repeat;
+  background: url("../image/full-image-header2.jpg") 25% 50% no-repeat;
   background-size: cover;
 }
 .main1_item3 {
   height: 684px;
   width: 100%;
-  background: url("../image/full-image-header3.jpg") 50% 50% no-repeat;
+  background: url("../image/full-image-header3.jpg") 25% 50% no-repeat;
   background-size: cover;
 }
 
@@ -1406,7 +1406,7 @@ textarea:focus {
 .itabs2 {
   margin-top: 5px;
 }
-.itabs2_tabs {
+.itabs2-tabs {
   display: table;
   table-layout: fixed;
   width: 100%;
