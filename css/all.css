@@ -1319,4 +1319,191 @@ textarea:focus {
   top: 7px;
 }
 
+.itabs {
+  min-height: 770px;
+  padding: 36px 0px 20px 0px;
+}
+.itabs_title {
+  font-size: 18px;
+  color: #424141;
+  margin-bottom: 18px;
+}
+.itabs_tabs {
+  overflow: hidden;
+  text-align: justify;
+  line-height: 0;
+  font-size: 1px;
+  /* 1px ╨┤╨╗╤П Opera */
+  text-align-last: justify;
+}
+.itabs_tabs:after {
+  width: 100%;
+  height: 0px;
+  visibility: hidden;
+  overflow: hidden;
+  content: '';
+  display: inline-block;
+}
+.itabs_tab {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  line-height: normal;
+  font-size: 14px;
+  vertical-align: bottom;
+}
+.itabs_tab:hover {
+  cursor: pointer;
+}
+.itabs_name {
+  margin-top: 8px;
+  background-color: #42bfc2;
+  color: #424141;
+  font-size: 18px;
+  line-height: 32px;
+}
+.itabs_tab:first-child .itabs_name {
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.itabs_tab:last-child .itabs_name {
+  -webkit-border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.itabs_tab.active .itabs_name {
+  color: #737373;
+}
+.itabs_tab:hover .itabs_name {
+  color: #737373;
+}
+
+.itabs2 {
+  margin-top: 5px;
+}
+.itabs2_tabs {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+.itabs2_tab {
+  display: table-cell;
+  background-color: #d7f9fa;
+  text-align: center;
+  color: #409a9c;
+  font-size: 16px;
+  line-height: 32px;
+}
+.itabs2_tab.active {
+  color: #000000;
+}
+.itabs2_tab:hover {
+  cursor: pointer;
+  color: #000000;
+}
+.itabs2_tab:first-child {
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.itabs2_tab:last-child {
+  -webkit-border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.price_title {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  margin: 12px 0px 14px 0px;
+}
+.price_item {
+  display: inline-block;
+  /* ╨Я╤А╤П╤З╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨╛╤В IE ╨┤╨╗╤П mac \*/
+  display: block;
+}
+.price_item:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.price_left {
+  padding-left: 7px;
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 31.6px;
+  color: #000000;
+  float: left;
+  width: 48.5%;
+  margin-right: 14px;
+}
+.price_item:nth-child(even) .price_left {
+  background-color: #fafafa;
+}
+.price_right {
+  text-align: center;
+  font-size: 18px;
+  line-height: 31.6px;
+  color: #000000;
+  overflow: hidden;
+}
+.price_item:nth-child(even) .price_right {
+  background-color: #fafafa;
+}
+
 /*# sourceMappingURL=all.css.map */

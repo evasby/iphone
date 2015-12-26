@@ -1,0 +1,30 @@
+.itabs2{
+	margin-top: 5px;
+	&_tabs{
+		display: table;
+		table-layout: fixed; 
+		width:100%; 
+		border-collapse: collapse;
+	}
+	&_tab{
+		display: table-cell; 
+		background-color: #d7f9fa;
+		text-align: center;
+		color: #409a9c;
+		font-size: 16px;
+		line-height: 32px;
+		&.active{
+			color: #000000;
+		}
+		&:hover{
+			cursor: pointer;
+			color: #000000;
+		}
+		&:first-child{
+			@include def-border-radiuses(0px, 0px, 2px, 2px);
+		}
+		&:last-child{
+			@include def-border-radiuses(2px, 2px, 0px, 0px);
+		}
+	}
+}
