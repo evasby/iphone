@@ -8,7 +8,7 @@
 		text-align: center;
 		margin: 0px 0px 50px 0px;
 	}
-	&_pager{
+	&-pager{
 		text-align: center;
 		margin: 0px 0px 10px 0px;
 		a{
@@ -18,10 +18,7 @@
 			margin: 0px 15px;
 			border: 2px solid #ffffff;
 			@include def-border-radius(50%);
-			&.active{
-				border: 2px solid #42bfc2;
-			}
-			&:hover{
+			&:hover, &.active{
 				img{
 					@include def-opacity(0.7);
 				}
@@ -29,7 +26,7 @@
 		}
 		img{
 			display: block;
-			@include def-transition(opacity, 0.2s);
+			//@include def-transition(opacity, 0.2s);
 		}
 	}
 	&_text{

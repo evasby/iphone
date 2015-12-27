@@ -1,0 +1,70 @@
+.form-feedback{
+	padding-top: 15px;
+	text-align: center;
+	h4{
+		margin-top: 4px;
+	}
+	&_title{
+		color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 35px;
+    text-align: center;
+    text-transform: uppercase;
+	}
+	&_inner{
+		input{
+			border: none;
+			text-align: center;
+			background-color: #ddd;
+			width: 150px;
+			height: 30px;
+			&.error{
+				-webkit-box-shadow: inset 0px 0px 0px 1px rgba(250,8,8,1);
+				-moz-box-shadow: inset 0px 0px 0px 1px rgba(250,8,8,1);
+				box-shadow: inset 0px 0px 0px 1px rgba(250,8,8,1);
+			}
+		}
+		textarea{
+			box-sizing: border-box;
+			border: none;
+			background-color: #ddd;
+			width: 150px;
+			margin: 0 auto;
+			padding: 5px;
+		}
+		margin-bottom: 15px;
+	}
+	&_button{
+		position: relative;
+		margin-bottom: 10px;
+		input{
+			width: 150px;
+			height: 30px;
+			background-color: #353434;
+			color: #fff;
+			border: none;
+			&:hover{
+				-webkit-box-shadow: 2px 2px 5px 0px rgba(53,52,52,0.5);
+				-moz-box-shadow: 2px 2px 5px 0px rgba(53,52,52,0.5);
+				box-shadow: 2px 2px 5px 0px rgba(53,52,52,0.5);
+			}
+		}
+	}
+	.ajax-progress{
+		position: absolute;
+		right: 35px;
+		top: 7px;
+		.throbber {
+      background: url('../image/ajax-loader.gif') no-repeat;
+			width: 16px;
+			height: 16px;
+    }
+	}
+	.messages{
+		display: none;
+	}
+	.webform-confirmation{
+    padding: 25px 5px;
+  }
+}
