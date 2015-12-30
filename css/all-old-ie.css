@@ -1498,22 +1498,21 @@ textarea:focus {
   margin-bottom: 18px;
 }
 .itabs_tabs {
-  overflow: hidden;
-  text-align: justify;
-  line-height: 0;
-  font-size: 1px;
-  /* 1px ╨┤╨╗╤П Opera */
-  *text-justify: newspaper;
-  *zoom: 1;
-  text-align-last: justify;
-}
-.itabs_tabs:after {
-  width: 100%;
-  height: 0px;
-  visibility: hidden;
-  overflow: hidden;
-  content: '';
-  display: inline-block;
+  		/*overflow: hidden;
+  		text-align: justify;
+  		line-height: 0;
+      font-size: 1px;*/
+  	/**text-justify: newspaper;
+    *zoom:1;*/
+  /*text-align-last: justify;*/
+  		/*&:after{
+  			width: 100%;
+        height: 0px;
+        visibility: hidden;
+        overflow: hidden;
+        content: '';
+        display: inline-block;
+  		}*/
 }
 .itabs_tab {
   display: inline-block;
@@ -1522,8 +1521,10 @@ textarea:focus {
   line-height: normal;
   font-size: 14px;
   vertical-align: bottom;
-  *display: inline;
-  *zoom: 1;
+  /*@include old-ie{
+  	*display : inline;
+  	*zoom : 1;
+  }*/
 }
 .itabs_tab:hover {
   cursor: pointer;
@@ -1534,6 +1535,7 @@ textarea:focus {
   color: #424141;
   font-size: 18px;
   line-height: 32px;
+  text-align: center;
 }
 .itabs_tab:first-child .itabs_name {
   -webkit-border-top-right-radius: 0px;

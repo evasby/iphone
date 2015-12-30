@@ -8,23 +8,23 @@
 	}
 	&_tabs{
 		//margin: 0px -28px;
-		overflow: hidden;
+		/*overflow: hidden;
 		text-align: justify;
 		line-height: 0;
-    font-size: 1px; /* 1px для Opera */
+    font-size: 1px;*/
     @include old-ie{
-    	*text-justify: newspaper;
-      *zoom:1;
+    	/**text-justify: newspaper;
+      *zoom:1;*/
     }
-		text-align-last: justify;
-		&:after{
+		/*text-align-last: justify;*/
+		/*&:after{
 			width: 100%;
       height: 0px;
       visibility: hidden;
       overflow: hidden;
       content: '';
       display: inline-block;
-		}
+		}*/
 	}
 	&_tab{
     display: inline-block;
@@ -34,10 +34,10 @@
     line-height: normal;
     font-size: 14px;
     vertical-align: bottom;
-    @include old-ie{
+    /*@include old-ie{
     	*display : inline;
     	*zoom : 1;
-    }
+    }*/
     &:hover{
     	cursor: pointer;
     }
@@ -48,6 +48,7 @@
 		color: #424141;
 		font-size: 18px;
 		line-height: 32px;
+		text-align: center;
 		.itabs_tab:first-child &{
 			//margin-left: 28px;
 			@include def-border-radiuses(0px, 0px, 2px, 2px);
